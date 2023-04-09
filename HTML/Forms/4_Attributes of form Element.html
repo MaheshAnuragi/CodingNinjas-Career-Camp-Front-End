@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <!-- Name , Value , Disabled-->
+        <!-- Name can be say key  -->
+        <!-- Disabled means When you added a Value then it will disabled can't be changed. -
+            or can be said alos it disabled the input tag-->
+        <div>
+            <label for="username"> Username</label>
+            <br>
+            <input type="text" id="username" required disabled>
+        </div>
+        
+        <div>
+            <label for="country"> Country</label>
+            <br>
+            <input type="text" id="country" required name="country" value="India" disabled>
+        
+        </div>
+        
+        <div>
+            <label for="password"> Password</label>
+            <br>
+            <input type="password" id="password" required>
+        </div>
+        
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+</html>
