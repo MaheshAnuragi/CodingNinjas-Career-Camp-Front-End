@@ -1,0 +1,43 @@
+/*-----header-----*/
+#main-header {
+    height: 400px;
+}
+
+#about-site {
+    color: grey;
+}
+
+
+
+/*-----main-----*/
+h1 {
+    font-size: 40px;
+    color: darkslategrey;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p {
+    color: dimgrey;
+}
+
+#blog-content {
+    width: 1000px;
+}
+
+.h-style {
+    color: darkslategrey;
+}
+
+/* specific changes of tag if classes is same */
+
+h1.h-style{         
+    font-family: sans-serif;
+}
+
+h4.h-style{
+    font-family: monospace;
+}
+
